@@ -4,7 +4,7 @@ FROM trenpixster/elixir:1.0.5
 RUN sudo apt-get update
 RUN sudo apt-get install -y postgresql postgresql-contrib 
 
-ENV PHOENIX_VERSION 1.0.0
+ENV PHOENIX_VERSION 1.0.2
 
 # install Phoenix from source with some previous requirements
 RUN git clone https://github.com/phoenixframework/phoenix.git \
